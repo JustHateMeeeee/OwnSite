@@ -1,0 +1,213 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0
+}
+header {
+    padding-left: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+    height: 95px;
+}
+.head {
+    display: flex;
+}
+.imgH {
+    margin-right: 40px ;
+}
+.company {
+    display: block;
+    height: 95px;
+    width: 150px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    box-shadow: 0px -2px 0px rgba(255, 0, 0, .5) inset;
+}
+.company p {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+    margin: 0;
+}
+.menu1 {
+    cursor: pointer;
+    display: inline-block;
+}
+.dropMenu1 {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropMenu1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropMenu1 a:hover { color: red ;
+}
+.menu1:hover .dropMenu1 {display: block;
+}
+.menu1:hover .company {box-shadow: 0px -4px 0px rgba(255, 0, 0, .7) inset;
+}
+.katalog {
+    display: block;
+    height: 95px;
+    width: 150px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    box-shadow: 0px -2px 0px rgba(255, 0, 0, .5) inset;
+}
+.katalog p {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+    margin: 0
+}
+.menu2:hover .katalog {box-shadow: 0px -4px 0px rgba(255, 0, 0, .7) inset;
+}
+.menu2 {
+    cursor: pointer;
+    display: inline-block;
+}
+.online {
+    display: block;
+    height: 95px;
+    width: 150px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    box-shadow: 0px -2px 0px rgba(255, 0, 0, .5) inset;
+}
+.online p {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+    margin: 0
+}
+.menu1:hover .online {box-shadow: 0px -4px 0px rgba(255, 0, 0, .7) inset; 
+}
+.statii {
+    display: block;
+    height: 95px;
+    width: 150px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    box-shadow: 0px -2px 0px rgba(255, 0, 0, .5) inset;
+}
+.statii p {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+    margin: 0
+}
+.menu3 {
+    cursor: pointer;
+    display: inline-block;
+}
+.menu3:hover .statii {box-shadow: 0px -4px 0px rgba(255, 0, 0, .7) inset;
+}
+.otz {
+    display: block;
+    height: 95px;
+    width: 150px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    box-shadow: 0px -2px 0px rgba(255, 0, 0, .5) inset;
+}
+.otz p {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+    margin: 0
+}
+.menu4:hover .otz {box-shadow: 0px -4px 0px rgba(255, 0, 0, .7) inset;
+}
+.menu4 {
+    cursor: pointer;
+    display: inline-block;
+}
+.kont {
+    display: block;
+    height: 95px;
+    width: 150px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    box-shadow: 0px -2px 0px rgba(255, 0, 0, .5) inset;
+}
+.kont p {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 90px;
+    margin: 0
+}
+.menu5:hover .kont {box-shadow: 0px -4px 0px rgba(255, 0, 0, .7) inset;
+}
+.menu4 {
+    cursor: pointer;
+    display: inline-block;
+}
+.hbut {
+    border: red;
+    background-color: #D30000;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 50px;
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    transition: all .15s ease-in-out;
+}
+.hbut:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transition: all .15s ease-in-out;
+}
+.icons {
+    align-items: center;
+    margin-left: 50px;
+    display: flex;
+}
+.vkIcon {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/vkBW.png);
+    background-size: 40px 40px;
+    transition: all .1s ease-in-out;
+}
+.vkIcon:hover {
+    background-image: url(img/vk.png);
+    background-size: 40px 40px;
+    transition: all .1s ease-in-out;
+}
+.tgIcon {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/tgWB.png);
+    background-size: 40px 40px;
+    transition: all .1s ease-in-out;
+}
+.tgIcon:hover {
+    background-image: url(img/906377.png);
+    background-size: 40px 40px;
+    transition: all .1s ease-in-out;
+}
